@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ok_json"
+        app:showAsAction="never"
+        android:title="Default JSON Format"
+        android:icon="@drawable/loading"
+        />
+
+    <item
+        android:id="@+id/ok_inter_"
+        app:showAsAction="never"
+        android:title="Watchable Interface"
+        android:icon="@drawable/loading"
+        />
+</menu>

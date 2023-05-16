@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:transitionName="anim"
+    android:layout_height="match_parent"
+    >
+    <plus.jone.android_idea.base.ui.refresh.SwipeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/glide_list"
+        tools:listitem="@layout/rv_img_view"
+        tools:context=".glide.TGlideActivity">
+    </plus.jone.android_idea.base.ui.refresh.SwipeLayout>
+
+    <ImageView
+        android:id="@+id/prew_img"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

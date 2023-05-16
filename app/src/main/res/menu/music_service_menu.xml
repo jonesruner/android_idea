@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/music_scan"
+        app:showAsAction="always"
+        android:title="Default JSON Format"
+        android:icon="@drawable/refresh"
+        />
+
+    <item
+        android:id="@+id/music_toggle_play_mode"
+        app:showAsAction="never"
+        android:title="Toggle Play Mode"
+        android:icon="@drawable/refresh"
+        />
+
+</menu>

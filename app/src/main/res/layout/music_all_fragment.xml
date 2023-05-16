@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="40dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/all_fra_sname"
+        android:layout_width="0dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/all_fra_btn"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        />
+    
+
+    <com.google.android.material.button.MaterialButton
+        app:layout_constraintStart_toEndOf="@id/all_fra_sname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:id="@+id/all_fra_btn"
+        />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

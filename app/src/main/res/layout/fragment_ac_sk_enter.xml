@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:text="Welcome To Socket Chat Room!"
+        android:textSize="20sp"
+        android:minWidth="60dp"
+        android:gravity="center"
+        android:letterSpacing=".05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:text="IP:"
+            android:textSize="20sp"
+            android:minWidth="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <plus.jone.android_idea.base.ui.input.IpInputView
+            android:id="@+id/ac_sk_ip_input"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:text="PORT:"
+            android:textSize="20sp"
+            android:minWidth="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="0dp"
+            android:text="6666"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/sk_chat_server_port"
+            />
+    </LinearLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ac_sk_join_room"
+        android:textColor="@color/white"
+        android:text="Join A Chat ROOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:text="MY:"
+            android:textSize="20sp"
+            android:minWidth="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:text="255.255.255.255"
+            android:enabled="false"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/sk_chat_local_ip"
+            android:layout_height="wrap_content"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:text=":"
+            android:gravity="center"
+            android:enabled="false"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="6666"
+            android:hint=" 0~65535"
+            android:id="@+id/sk_chat_local_port"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ac_sk_create_room"
+        android:textColor="@color/white"
+        android:text="Create A Chat ROOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

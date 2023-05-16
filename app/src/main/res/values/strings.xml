@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">IDEA</string>
+
+    <string name="animation">&#xe601;</string>
+    <string name="server">&#xebe2;</string>
+    <string name="bluetooth">&#xe60c;</string>
+    <string name="network">&#xec72;</string>
+    <string name="thread">&#xe609;</string>
+    <string name="activity">&#xe664;</string>
+    <string name="broadcast">&#xe86a;</string>
+    <string name="network_1">&#xe67a;</string>
+    <string name="activity_1">&#xe760;</string>
+    <string name="confirm_circle">&#xe612;</string>
+    <string name="confirm_selcted">&#xe60a;</string>
+    <string name="rotate_3d">&#xe87f;</string>
+    <string name="camera">&#xe7a9;</string>
+    <string name="reddit_circle_fill">&#xe88b;</string>
+    <string name="back_light">&#xe7e0;</string>
+    <string name="flexible_rule">&#xe65f;</string>
+    <string name="sds_paint_2">&#xe614;</string>
+    <string name="paint">&#xe651;</string>
+    <string name="home">&#xe931;</string>
+    <string name="scan">&#xe69a;</string>
+    <string name="back">&#xe625;</string>
+    <string name="search">&#xe616;</string>
+
+    <string name="music">&#xe61a;</string>
+    <string name="play_01">&#xe69e;</string>
+    <string name="music_01">&#xe924;</string>
+    <string name="play_02">&#xe705;</string>
+    <string name="next">&#xe650;</string>
+    <string name="previous">&#xe613;</string>
+
+    <string name="cc_mic_close">&#xe676;</string>
+    <string name="refresh">&#xe66e;</string>
+    <string name="image">&#xe7de;</string>
+    <string name="share">&#xe86e;</string>
+    <string name="share_01">&#xe659;</string>
+    <string name="mic">&#xe678;</string>
+
+    <string name="chat">&#xe749;</string>
+    <string name="three_dots_more_indicator">&#xe600;</string>
+</resources>

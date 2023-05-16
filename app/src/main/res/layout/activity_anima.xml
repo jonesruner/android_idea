@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".anim.AnimaActivity">
+
+
+    <ImageView
+        android:src="@drawable/music"
+        android:id="@+id/anim_img"
+        android:layout_width="150dp"
+        android:transitionName="anim"
+        android:layout_height="150dp"
+        />
+
+       <com.google.android.material.button.MaterialButton
+           android:layout_marginTop="40dp"
+           android:id="@+id/anim_alpha"
+           android:text="Alpha"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           />
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/anim_scale"
+           android:text="Scale"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           />
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/anim_rotate"
+           android:text="Rotate"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           />
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/anim_translate"
+           android:text="Translate"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/anim_set"
+        android:text="Animate Set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

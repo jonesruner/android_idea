@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintCircleRadius="10dp"
+        app:shapeAppearanceOverlay="@style/circleStyle"
+        app:circularflow_defaultRadius="10dp"
+        android:layout_marginStart="10dp"
+        tools:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ms_divider"
+        android:id="@+id/prew_img"
+        />
+
+
+    <Space
+        app:layout_constraintStart_toEndOf="@id/prew_img"
+        android:id="@+id/ms_space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ms_divider"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ms_song_name"
+        app:layout_constraintStart_toEndOf="@id/ms_space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ms_singer_name"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:text="一路向北"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ms_singer_name"
+        app:layout_constraintStart_toEndOf="@id/ms_space"
+        app:layout_constraintTop_toBottomOf="@+id/ms_song_name"
+        app:layout_constraintEnd_toStartOf="@+id/ms_singer_time"
+        app:layout_constraintBottom_toTopOf="@id/ms_divider"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="@color/light_second_text_primary"
+        tools:text="Jay"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ms_singer_time"
+        app:layout_constraintStart_toEndOf="@id/ms_singer_name"
+        app:layout_constraintTop_toBottomOf="@+id/ms_song_name"
+        android:gravity="end|center_vertical"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ms_divider"
+        android:layout_width="wrap_content"
+        android:textColor="@color/light_second_text_primary"
+        android:layout_height="0dp"
+        tools:text="2020/01/15"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/ms_divider"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
