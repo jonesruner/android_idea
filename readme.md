@@ -66,8 +66,3 @@ implementation project(path: ':jsonviewer') // com.yuyh.jsonviewer.library.jsonv
  [下载地址](https://github.com/jonesruner/android_idea/releases/download/Debug/app-debug.apk)
 
 <img src="./imgs/download-apk.png" alt="点击下载" style="zoom:60%;" />
-
-
-
-
-
