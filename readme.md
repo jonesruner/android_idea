@@ -59,3 +59,15 @@ implementation project(path: ':jsonviewer') // com.yuyh.jsonviewer.library.jsonv
 | ![](./imgs/home.png)     | ![](./imgs/okhttp.png) | ![](./imgs/glide.png) | ![](./imgs/music.png) |
 | ![](./imgs/activity.png) | ![](./imgs/socket.png) | ![](./imgs/bth.png)   | ![](./imgs/anim.png)  |
 
+
+
+##  下载
+
+ [下载地址](https://github.com/jonesruner/android_idea/releases/download/Debug/app-debug.apk)
+
+<img src="./imgs/download-apk.png" alt="点击下载" style="zoom:60%;" />
+
+
+
+
+
